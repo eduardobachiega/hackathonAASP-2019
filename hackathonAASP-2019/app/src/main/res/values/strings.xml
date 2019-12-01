@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Ruy</string>
+    <string name="waiting_sms">Aguardando sms…</string>
+    <string name="attention">Atenção</string>
+    <string name="cellphone_number">Número de celular</string>
+    <string name="email">Email</string>
+    <string name="name">Nome</string>
+    <string name="last_name">Último sobrenome</string>
+    <string name="register_description">Legal, para começar precisamos de algumas informações básicas</string>
+    <string name="register_photo_description">Coloca uma foto legal aí para seus amigos reconhecerem você :)</string>
+    <string name="logout_confirm">Deseja realmente fazer logout?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="photo_origin">Escolher foto da</string>
+    <string name="gallery">Galeria</string>
+    <string name="camera">Câmera</string>
+    <string name="uploading">Fazendo upload…</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="proceed">Prosseguir</string>
+    <string name="loading">Carregando…</string>
+    <string name="edit_profile">editar perfil</string>
+    <string name="team_name">Nome do time</string>
+    <string name="description">Descrição</string>
+    <string name="game">Jogo</string>
+    <string name="registering_team">Registrando dados do time…</string>
+    <string name="loading_teams">Carregando times…</string>
+    <string name="loading_team_members">Carregando membros do time…</string>
+    <string name="add_member">Adicionar membro</string>
+    <string name="add_member_description">Para adicionar um membro ao seu time digite o número de celular do participante</string>
+    <string name="cellphone_instruction">DDD + Número</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="user_not_found">Usuário não encontrado</string>
+    <string name="user_found">Usuário encontrado</string>
+    <string name="add_user">Adicionar</string>
+    <string name="success">Sucesso</string>
+    <string name="added_successful">foi adicionado ao time</string>
+    <string name="event_date">Data do evento</string>
+    <string name="initial_hour">Hora de início</string>
+    <string name="input_date">Clique para adicionar a data do evento</string>
+    <string name="input_initial_hour">Clique para adicionar a hora de início</string>
+    <string name="input_final_hour">Clique para adicionar a hora de término</string>
+    <string name="final_hour">Hora de término</string>
+    <string name="event_title">Título do evento</string>
+    <string name="local">Local</string>
+    <string name="confirm_presence">Confirmar presença</string>
+    <string name="cancel_presence">Cancelar presença</string>
+    <string name="confirm_presence_message">Deseja realmente confirmar presença no evento</string>
+    <string name="cancel_presence_message">Deseja realmente cancelar presença no evento</string>
+    <string name="presence_confirmed">Presença confirmada</string>
+    <string name="presence_canceled">Presença não confirmada</string>
+    <string name="event_created">Evento criado com sucesso</string>
+    <string name="event_created_descr">O evento foi criado com sucesso, deseja confirmar sua presença neste evento?</string>
+    <string name="document_send">Documento enviado</string>
+    <string name="document_not_send">Documento não enviado</string>
+    <string name="passport">Passaporte</string>
+    <string name="school">Comprovante de escolaridade</string>
+    <string name="photo">Foto 3x4</string>
+    <string name="rg">RG</string>
+    <string name="cpf">CPF</string>
+    <string name="send_photo">Enviar foto</string>
+    <string name="send_photo_description">Deseja enviar esta foto?</string>
+    <string name="change_photo">Alterar foto</string>
+    <string name="change_photo_description">Deseja alterar esta foto?</string>
+    <string name="created_by">Criado por</string>
+    <string name="question_null">A sugestão deve ter no mínimo 1 caracter</string>
+    <string name="add_poll">Adicionar uma sugestão/enquete</string>
+    <string name="add_poll_message">Insira uma sugestão ou enquete para os membros do seu time votarem</string>
+    <string name="add_poll_hint">Enquete ou sugestão</string>
+    <string name="add_poll_success">Enquete/sugestão criada com sucesso</string>
+    <string name="add_poll_failure">Ocorreu um problema ao criar a enquete</string>
+    <string name="event_users">Quem vai?</string>
+    <string name="confirmed_event">Sim :)</string>
+    <string name="not_confirmed_event">Não :(</string>
+    <string name="options">Opções</string>
+    <string name="remove_member">Remover membro</string>
+    <string name="make_admin">Tornar admin</string>
+    <string name="edit_presence">Alterar presença</string>
+    <string name="team_confirmation">Ver confirmação da equipe</string>
+    <string name="admin">Administrador</string>
+    <string name="type_phone">Digitar número de celular</string>
+    <string name="scan_qrcode">Ler QRCode</string>
+    <string name="qrcode_description">Este é o seu QRCode, ele te identifica em nossa plataforma, você pode usá-lo para ser adicionado em um time :)</string>
+    <string name="start">Início</string>
+    <string name="game_date">Partida realizada em</string>
+    <string name="input_game_date">Clique para adicionar a data da partida</string>
+    <string name="away_team_name">Nome do time adversário</string>
+    <string name="result">Resultado</string>
+    <string name="away_team">Adversário</string>
+    <string name="win">Vitória</string>
+    <string name="draw">Empate</string>
+    <string name="loss">Derrota</string>
+    <string name="all_fields_validation">Todos os campos devem ser preenchidos, verifique e tente novamente</string>
+    <string name="type_code">Digitar código manualmente</string>
+    <string name="type_code_instruction">Digite o código de 6 digitos que você recebeu por sms</string>
+    <string name="invalid_code">Código inválido</string>
+    <string name="summon_player">Summon Player</string>
+
+    <!--ACTIVITY TITLES-->
+    <string name="title_activity_register">Cadastro</string>
+    <string name="title_activity_register_photo">Cadastro de foto</string>
+
+
+    <!--MASK-->
+    <string name="phone_mask">(##) #####-####</string>
+    <string name="code_mask">000000</string>
+
+    <!--MENU-->
+    <string name="my_dashboard">Meu dashboard</string>
+    <string name="my_qrcode">Meu QRCode</string>
+    <string name="teams">Times</string>
+    <string name="create_team">Criar time</string>
+    <string name="my_teams">Meus times</string>
+    <string name="my_documents">Meus documentos</string>
+    <string name="my_events">Meus eventos</string>
+    <string name="others">Outros</string>
+    <string name="settings">Configurações</string>
+    <string name="exit">Sair</string>
+
+    <!--ERRORS-->
+    <string name="sms_request_failed">Não foi possível solicitar a autenticação por SMS, tente novamente.</string>
+    <string name="sms_verification_failed">Não foi possível verificar o código, tente novamente.</string>
+    <string name="user_register_failed">Não foi possível registrar o usuário, tente novamente.</string>
+    <string name="user_logout_failed">Não foi possível realizar logout, tente novamente.</string>
+    <string name="upload_error">Não foi possível enviar a sua foto. Deseja prosseguir sem foto ou tentar novamente?</string>
+    <string name="phonenumber_error">O número deve ter 11 dígitos (DDD + Número)</string>
+    <string name="null_team_field">%s não pode ficar em branco :/</string>
+    <string name="generic_error">Ops! Ocorreu um problema, tente novamente</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cdrp_mon">Seg</string>
+    <string name="cdrp_tue">Ter</string>
+    <string name="cdrp_wed">Qua</string>
+    <string name="cdrp_thu">Qui</string>
+    <string name="cdrp_fri">Sex</string>
+    <string name="cdrp_sat">Sab</string>
+    <string name="cdrp_sun">Dom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="game_options">
+        <item>League of Legends</item>
+        <item>CS:GO</item>
+        <item>FIFA</item>
+        <item>Rocket League</item>
+    </array>
+    <string name="title_activity_manage_team">Gerenciar time</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+</resources>

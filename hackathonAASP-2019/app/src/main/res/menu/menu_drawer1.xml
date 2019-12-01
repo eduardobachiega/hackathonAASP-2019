@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_initial"
+            android:icon="@drawable/school"
+            android:title="Meus Estudos" />
+        <item
+            android:id="@+id/nav_pill"
+            android:icon="@drawable/pill"
+            android:title="Pílulas" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/chart_areaspline"
+            android:title="Meu Progresso" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/forum"
+            android:title="Fórum" />
+        <item android:title="@string/others">
+            <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/exit" />
+            </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

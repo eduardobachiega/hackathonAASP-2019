@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.initial.InitialFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/darkColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/civUser"
+                    android:src="@drawable/ic_account">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/tvUserName"
+                    android:text="Usuario"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="38 ruys"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_admin">
+
+                    </ImageView>
+                </LinearLayout>
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/progress_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    app:rcBackgroundPadding="5dp"
+                    app:rcProgress="20"
+                    app:rcProgressColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuração do perfil"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:rcBackgroundPadding="5dp"
+            app:rcProgress="100.0"
+            android:layout_marginTop="5dp"
+            app:rcProgressColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primeira trilha"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:rcBackgroundPadding="5dp"
+            android:layout_marginTop="5dp"
+            app:rcProgress="56.8"
+            app:rcProgressColor="#FFC107" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consumo de pilulas"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:rcBackgroundPadding="5dp"
+            android:layout_marginTop="5dp"
+            app:rcProgress="20.0"
+            app:rcProgressColor="#D53131" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progredir para um curso"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:rcBackgroundPadding="5dp"
+            android:layout_marginTop="5dp"
+            app:rcProgress="100.0"
+            app:rcProgressColor="@color/colorAccent" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/graph1">
+
+        </ImageView>
+    </LinearLayout>
+
+</FrameLayout>

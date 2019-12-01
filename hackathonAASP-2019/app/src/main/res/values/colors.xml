@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242121</color>
+    <color name="colorPrimaryDark">#242121</color>
+    <color name="colorAccent">#1ABB9B</color>
+    <color name="background">#404042</color>
+    <color name="darkColor">#333333</color>
+
+
+    <color name="baseGradient">#565657</color>
+    <color name="gradient1">#4B4B4B</color>
+    <color name="gradient2">#000000</color>
+    <color name="gradient3">#292929</color>
+    <color name="gradient4">#000000</color>
+    <color name="gradient5">#1F1F1F</color>
+    <color name="gradient6">#000000</color>
+
+    <color name="gradientStartColor">#649696</color>
+    <color name="gradientEndColor">#227e76</color>
+    <color name="gradientCenterColor">#3b8e8e</color>
+</resources>
