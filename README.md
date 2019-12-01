@@ -1,6 +1,10 @@
 # Projetos
+```sh
 Plataforma WEB --> /dashboard
+```
+```sh
 Aplicativo Android --> /hackathonAASP-2019
+```
 
 # Configuração do projeto (WEB)
 
